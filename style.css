@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffffff;
+  
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #dadada;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #463d47;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav li {
+    margin-right: 10px;
+}
+
+.nav a {
+    color: #000000;
+    text-decoration: rgb(119, 97, 134);
+}
+
+.home {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+home h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+about {
+    background-image: url("background.jpg");
+    color: #161515;
+    padding: 50px;
+    text-align: center;
+    
+}.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+projects {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+   
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
+article button {
+    background-color: #fffefe;
+    color: #000000;
+    padding: 10px 20px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact button[type="submit"] {
+    background-color: #333;
+    color: #f7f7f7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #b3b3b3;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
